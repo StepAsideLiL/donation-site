@@ -239,3 +239,61 @@ header .hero-container a:hover {
     line-height: 24px;
 }
 
+
+/* ============= Our Donate Plan Section =============== */
+.contribute .column {
+    width: 1020px;
+    /* height: 477px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contribute .column-item-left {
+    padding: 120px 120px 120px 0;
+}
+
+.contribute .column-item-right {
+    padding: 120px 0 120px 120px;
+}
+
+.contribute h1.title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.contribute p.description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.contribute a {
+    padding: 12px 16px;
+    border-radius: 5px;
+}
+
+.contribute a:hover {
+    background-color: #ff4343;
+}
+
+.contribute .img-right,
+.contribute .img-left {
+    width: 870px;
+    height: 470px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.contribute .img-right {
+    background-image: url(./assets/images/donation12.png);
+}
+
+.contribute .img-left {
+    background-image: url(./assets/images/donation7.jpg);
+}
