@@ -297,3 +297,56 @@ header .hero-container a:hover {
 .contribute .img-left {
     background-image: url(./assets/images/donation7.jpg);
 }
+
+
+/* ============= Our Donate Plan Section =============== */
+.newsletter {
+    margin: 130px 0;
+    text-align: center;
+}
+
+.newsletter h1,
+.newsletter p {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.newsletter h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.newsletter form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 70px 180px;
+}
+
+.newsletter input[type="text"] {
+    padding: 14px 8px;
+    width: 300px;
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter input[type="submit"] {
+    padding: 14px 24px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.newsletter input[type="submit"]:hover {
+    background-color: #ff4343;
+}
+
+
