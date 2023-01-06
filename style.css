@@ -167,3 +167,75 @@ header .hero-container a:hover {
     background-color: #ff4343;
 }
 
+
+/* ============= Our Donate Plan Section =============== */
+.donate-plan {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.donate-plan h1.title,
+.donate-plan p.description {
+    width: 825px;
+    margin: auto;
+}
+
+.donate-plan h1.title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.donate-plan p.description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.donate-plan .plan-container {
+    width: 1020px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.donate-plan .plan-container .plan {
+    height: 300px;
+    padding: 22px 30px;
+    margin: 0 10px;
+}
+
+.donate-plan .plan-container .plan-food {
+    background-color: #4F9DA650;
+}
+
+.donate-plan .plan-container .plan-shelter {
+    background-color: #FF595950;
+}
+
+.donate-plan .plan-container .plan-edu {
+    background-color: #cdff5975;
+}
+
+.donate-plan .plan-container .plan img {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.donate-plan .plan-container .plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.donate-plan .plan-container .plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
