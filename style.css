@@ -1,3 +1,83 @@
+/* ===================================================== */
+/* ============= Initializing Style ==================== */
+/* ===================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: red;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #FF5959;
+}
+
+
+/* ===================================================== */
+/* ============= Colors ================================ */
+/* ===================================================== */
+/* Title Color */
+.big-color {
+    color: #121212;
+}
+
+/* Subtitle and Element Color */
+.small-color {
+    color: #707070;
+}
+
+
+/* ===================================================== */
+/* ============= Header ================================ */
+/* ===================================================== */
+header {
+    color: #FFFFFF;
+    height: 720px;
+    background: linear-gradient(0deg, rgb(12, 12, 12), rgba(12, 12, 12, 0)), url(./assets/images/donation3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header .hero-container {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+
+header .hero-container h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+
+    margin-bottom: 20px;
+}
+
+header .hero-container p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    margin-bottom: 30px;
+}
+
+header .hero-container a {
+    display: inline-block;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    padding: 16px 24px;
+    border-radius: 5px;
+}
+
+header .hero-container a:hover {
+    background-color: #ff4343;
 }
